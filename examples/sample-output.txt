@@ -1,0 +1,16 @@
+--- clean file ---
+OK — 1 file(s) checked, no markers over the limit.
+--- file with markers ---
+FAIL examples/todo.py:5: TODO: retry three times before giving up
+FAIL examples/todo.py:10: FIXME: this writes to the wrong folder
+FAIL examples/todo.py:15: XXX: remove this once the new path is live
+Checked 1 file(s), 3 marker(s) in 1 file(s) — over the limit of 0.
+--- plain-text notes ---
+FAIL examples/notes.txt:2: TODO: buy milk
+FAIL examples/notes.txt:5: FIXME the broken shelf
+Checked 1 file(s), 2 marker(s) in 1 file(s) — over the limit of 0.
+--- same file, limit 3 ---
+FAIL examples/todo.py:5: TODO: retry three times before giving up
+FAIL examples/todo.py:10: FIXME: this writes to the wrong folder
+FAIL examples/todo.py:15: XXX: remove this once the new path is live
+OK — 1 file(s) checked, no markers over the limit.
